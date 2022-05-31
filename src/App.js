@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Render paragraphs at your will</h1>
+      <h1>Choose the number of paragraphs, you want to render</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>{" "}
         <input
